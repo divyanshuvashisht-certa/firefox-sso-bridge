@@ -31,7 +31,7 @@
     "gecko": { 
       "id": "certa-sso-container-bridge@example.invalid", 
       "strict_min_version": "128.0",
-      "update_url": "https://github.com/divyanshuvashisht-certa/firefox-sso-bridge/blob/main/update.json"
+      "update_url": "https://divyanshuvashisht-certa.github.io/firefox-sso-bridge/update.json"
     }
   }
 }
