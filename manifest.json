@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Certa SSO Container Bridge (Prototype)",
+  "version": "0.1.0",
+  "description": "Firefox Container Tabs plus a Google OAuth callback handoff. Prototype for standard authorization-code flows.",
+  "permissions": [
+    "<all_urls>",
+    "tabs",
+    "cookies",
+    "contextualIdentities",
+    "storage",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "icons": {
+  "16": "icons/icon-16.png",
+  "32": "icons/icon-32.png",
+  "48": "icons/icon-48.png",
+  "96": "icons/icon-96.png"
+  },
+  "browser_action": {
+      "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    },
+    "default_title": "SSO Container Bridge",
+    "default_popup": "popup.html"
+  },
+  "background": { "scripts": ["background.js"], "persistent": true },
+  "browser_specific_settings": {
+    "gecko": { 
+      "id": "certa-sso-container-bridge@example.invalid", 
+      "strict_min_version": "128.0" 
+    }
+  }
+}
