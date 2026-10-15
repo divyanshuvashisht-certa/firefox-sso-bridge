@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "certa-sso-container-bridge@example.invalid": {
+      "updates": [
+        {
+          "version": "0.1.0",
+          "update_link": "https://github.com/your-github-username/your-repo-name/releases/download/v0.1.0/certa_sso_bridge-0.1.0.xpi"
+        }
+      ]
+    }
+  }
+}
